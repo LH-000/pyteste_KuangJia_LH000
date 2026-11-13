@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CRMEB 后台登录页 PoM（选择器沿用自原 CRMEB.py，已实测可用）。"""
+"""CRMEB 后台登录页 PoM（选择器沿用自被测环境配置文件，原 CRMEB.py，已实测可用）。"""
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
