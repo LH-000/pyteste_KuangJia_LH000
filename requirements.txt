@@ -1,0 +1,9 @@
+pytest
+allure-pytest
+selenium
+requests
+webdriver-manager
+pytest-result-log
+pytest-rerunfailures
+pytest-xdist
+faker

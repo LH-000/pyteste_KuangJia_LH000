@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+
+# 系统
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 本地浏览器与驱动（环境依赖，不进仓库）
+chrome-win64/
+drivers/
+
+# 工具缓存
+.pytest_cache/
+.mimosa/
+
+# 测试运行产物
+allure-report/
+allure-report-single/
+allure-results/
+pytest.log
+full_output.txt
