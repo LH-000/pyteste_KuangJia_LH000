@@ -33,3 +33,56 @@ allure-report-single/
 allure-results/
 pytest.log
 full_output.txt
+
+# ============================================================
+# 安全相关（密钥/凭证绝不进仓库）
+# ============================================================
+
+# 环境变量文件（常存 GITHUB_TOKEN、账号密码；保留模板 .env.example 供他人参考）
+.env
+.env.*
+*.env
+!.env.example
+
+# 密钥与证书
+keys/
+secrets/
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.pfx
+*.p12
+*.p7b
+*.jks
+keystore*
+truststore*
+
+# SSH 私钥
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+*.ppk
+
+# 凭证目录与文件（含"credentials"字样的一律排除）
+credentials/
+*credentials*.json
+*credential*.txt
+
+# 云平台与服务的本地凭证
+service-account*.json
+google-credentials*.json
+auth*.json
+.aws/
+.gcloud/
+.azure/
+gh-config.yml
+
+# 内嵌令牌的配置文件
+.netrc
+.pypirc
+.npmrc
+token*.txt
+access_token*
